@@ -86,12 +86,18 @@ select {
 }
 
 .header {
-  background-color: antiquewhite;
+  background-color: white;
   grid-area: header;
 }
 
 .header-icon {
   height: 25px;
+}
+
+.search {
+  border: none;
+  border-radius: 25px;
+  background-color: #e2e8f0;
 }
 
 .sm-profile-icon {
@@ -109,9 +115,15 @@ select {
 }
 
 .sidebar {
-  background-color: skyblue;
+  background-color: #1a92d5;
   grid-area: sidebar;
   display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+}
+
+.logo-icon {
+  height: 50px;
+  fill: white;
 }
 
 .nav-icon {
@@ -124,11 +136,11 @@ select {
 .settings {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  border: 1px solid red;
-  grid-template-rows: auto;
 }
 
 .main {
-  background-color: lightgray;
+  background-color: #e2e8f0;
   grid-area: main;
 }
+
+/* highlight color #f0b429 */

@@ -46,9 +46,10 @@ a:not([class]) {
 
 /* Make images easier to work with */
 img,
-picture {
+picture,
+svg {
   max-width: 100%;
-  display: block;
+  /* display: block; */
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -79,8 +80,8 @@ select {
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-template-rows: 1fr 5fr;
+  grid-template-columns: minmax(300px, 1fr) minmax(600px, 4fr);
+  grid-template-rows: minmax(175px, 1fr) 5fr;
   grid-template-areas: "sidebar header" "sidebar main";
 }
 
@@ -89,9 +90,42 @@ select {
   grid-area: header;
 }
 
+.header-icon {
+  height: 25px;
+}
+
+.sm-profile-icon {
+  height: 45px;
+  width: 45px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.lg-profile-icon {
+  height: 70px;
+  width: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 .sidebar {
   background-color: skyblue;
   grid-area: sidebar;
+  display: grid;
+}
+
+.nav-icon {
+  height: 25px;
+  fill: white;
+}
+
+.logo,
+.nav,
+.settings {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  border: 1px solid red;
+  grid-template-rows: auto;
 }
 
 .main {

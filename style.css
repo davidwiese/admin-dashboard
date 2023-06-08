@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;800&display=swap");
+
 /* reset start */
 /* Box sizing rules */
 *,
@@ -36,7 +38,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  font-family: "Sen", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* A elements that don't have a class get default styles */
@@ -81,7 +83,7 @@ select {
 .container {
   display: grid;
   grid-template-columns: minmax(300px, 1fr) minmax(600px, 4fr);
-  grid-template-rows: minmax(175px, 1fr) 5fr;
+  grid-template-rows: minmax(175px, 1fr) minmax(750px, 3fr);
   grid-template-areas: "sidebar header" "sidebar main";
 }
 
@@ -118,17 +120,30 @@ select {
   background-color: #1a92d5;
   grid-area: sidebar;
   display: grid;
-  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-rows: 80px 330px 155px;
+  gap: 2rem;
+  color: #fcfefe;
 }
 
 .logo-icon {
   height: 50px;
   fill: white;
+  padding-left: 1rem;
+}
+
+.logo-text {
+  font-size: x-large;
+  font-weight: 800;
 }
 
 .nav-icon {
   height: 25px;
   fill: white;
+  padding-left: 2rem;
+}
+
+.nav-text {
+  font-size: larger;
 }
 
 .logo,
@@ -136,6 +151,7 @@ select {
 .settings {
   display: grid;
   grid-template-columns: 1fr 3fr;
+  align-items: center;
 }
 
 .main {

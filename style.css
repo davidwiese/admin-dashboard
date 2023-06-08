@@ -76,3 +76,25 @@ select {
 }
 
 /* reset end */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 5fr;
+  grid-template-areas: "sidebar header" "sidebar main";
+}
+
+.header {
+  background-color: grey;
+  grid-area: header;
+}
+
+.sidebar {
+  background-color: skyblue;
+  grid-area: sidebar;
+}
+
+.main {
+  background-color: antiquewhite;
+  grid-area: main;
+}

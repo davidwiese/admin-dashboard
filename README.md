@@ -1,6 +1,6 @@
 # Admin Dashboard
 
-Sample admin dashboard from scratch.
+Sample admin dashboard practicing CSS grid.
 
 **Link to project:** https://davidwiese.github.io/admin-dashboard/
 
@@ -8,10 +8,12 @@ Sample admin dashboard from scratch.
 
 **Tech used:** HTML, CSS
 
-Mostly grid and a touch of flexbox.
+All grid, no flexbox.
 
 ## Optimizations
 
-Adding mobile responsiveness.
+Since it is an admin dashboard, I didn't bother to make it responsive. I would like to create a responsive solution in the future for different screen sizes.
 
 ## Lessons Learned:
+
+Knowing when grid or flex makes the most sense is best. This exercise was fun overall.

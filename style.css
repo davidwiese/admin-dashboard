@@ -229,6 +229,7 @@ select {
   grid-area: main;
   display: grid;
   grid-template-columns: 2.5fr 1fr;
+  gap: 30px;
 }
 
 .cards {

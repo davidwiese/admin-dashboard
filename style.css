@@ -225,10 +225,19 @@ select {
 }
 
 .card {
+  display: grid;
   width: 372px;
   height: 214px;
   background-color: white;
   border-left: 8px solid #f0b429;
   border-radius: 8px;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.card p {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.card-icons {
+  border: 1px solid green;
 }

@@ -241,6 +241,11 @@ select {
   margin: 1.5rem 0 0 1.5rem;
 }
 
+.card h3:hover,
+.card h3:focus {
+  cursor: pointer;
+}
+
 .card p {
   color: rgba(0, 0, 0, 0.6);
   margin-left: 1.5rem;
@@ -275,6 +280,11 @@ select {
   padding: 1.5rem;
 }
 
+.card-announcements h5:hover,
+.card-announcements h5:focus {
+  cursor: pointer;
+}
+
 .card-announcements p {
   opacity: 55%;
   font-size: smaller;
@@ -286,4 +296,19 @@ select {
 .card-announcements p:nth-child(4) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.6); /* Border style */
   padding-bottom: 10px; /* Optional padding for spacing */
+}
+
+button:hover,
+button:focus,
+svg:hover,
+svg:focus,
+.lg-profile-icon:hover,
+.lg-profile-icon:focus,
+.sm-profile-icon:hover,
+.sm-profile-icon:focus,
+.logo-text:hover,
+.logo-text:focus,
+.nav-text:hover,
+.nav-text:focus {
+  cursor: pointer;
 }

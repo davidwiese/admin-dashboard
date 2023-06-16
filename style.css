@@ -251,11 +251,37 @@ select {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-self: right;
-  width: 50%;
+  width: 40%;
   margin-bottom: 1.5rem;
 }
 
 .card-icons svg {
   height: 25px;
   opacity: 70%;
+}
+
+.announcements {
+  display: grid;
+  gap: 30px;
+  grid-template-rows: 1fr 1fr;
+}
+
+.card-announcements {
+  background: white;
+  margin-top: 8px;
+  border-radius: 8px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+  padding: 1.5rem;
+}
+
+.card-announcements p {
+  opacity: 55%;
+  font-size: smaller;
+  margin-bottom: 0.5rem;
+}
+
+.card-announcements p:nth-child(2),
+.card-announcements p:nth-child(4) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6); /* Border style */
+  padding-bottom: 10px; /* Optional padding for spacing */
 }

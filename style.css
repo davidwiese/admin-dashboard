@@ -237,8 +237,14 @@ select {
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
 }
 
+.card h3 {
+  margin: 1.5rem 0 0 1.5rem;
+}
+
 .card p {
   color: rgba(0, 0, 0, 0.6);
+  margin-left: 1.5rem;
+  width: 90%;
 }
 
 .card-icons {
@@ -246,7 +252,7 @@ select {
   grid-template-columns: 1fr 1fr 1fr;
   justify-self: right;
   width: 50%;
-  border: 1px solid green;
+  margin-bottom: 1.5rem;
 }
 
 .card-icons svg {

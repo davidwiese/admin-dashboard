@@ -12,7 +12,9 @@ All grid, no flexbox.
 
 ## Optimizations
 
-Since it is an admin dashboard, I didn't bother to make it responsive. I would like to create a responsive solution in the future for different screen sizes.
+Since it is an admin dashboard, I didn't bother to make it responsive. It is meant to be viewed in a fixed window.
+
+I would like to create a responsive solution in the future for different screen sizes.
 
 ## Lessons Learned:
 

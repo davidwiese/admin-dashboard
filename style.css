@@ -228,6 +228,7 @@ select {
 
 .card {
   display: grid;
+  grid-template-rows: 1fr 4fr 1fr;
   width: 372px;
   height: 214px;
   background-color: white;
@@ -241,5 +242,14 @@ select {
 }
 
 .card-icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-self: right;
+  width: 50%;
   border: 1px solid green;
+}
+
+.card-icons svg {
+  height: 25px;
+  opacity: 70%;
 }
